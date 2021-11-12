@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="276" height="260" viewBox="0 0 276 260">
+  <defs>
+    <clipPath id="7m9xa">
+      <path fill="#fff" d="M0 8a8 8 0 0 1 8-8h260a8 8 0 0 1 8 8v60a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z"/>
+    </clipPath>
+    <clipPath id="7m9xb">
+      <path fill="#fff" d="M0 100a8 8 0 0 1 8-8h260a8 8 0 0 1 8 8v60a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z"/>
+    </clipPath>
+    <clipPath id="7m9xc">
+      <path fill="#fff" d="M0 192a8 8 0 0 1 8-8h260a8 8 0 0 1 8 8v60a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g>
+      <path fill="none" stroke="rgba(240, 248, 255, 0.32)" stroke-miterlimit="20" stroke-opacity=".5" stroke-width="4" d="M0 8a8 8 0 0 1 8-8h260a8 8 0 0 1 8 8v60a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z" clip-path="url(&quot;#7m9xa&quot;)"/>
+    </g>
+    <g>
+      <path fill="rgba(240, 248, 255, 0.32)" fill-opacity="0.7" d="M234.968 49.465l.75.16 4.966 2.56c.833.283 1.381 1.132 1.31 2.043v.32l-1.072 7.532c-.071.53-.298 1.022-.714 1.366-.37.37-.858.554-1.37.554h-8.193c-.583 0-1.12-.222-1.512-.652L222 56l1.072-1.23c.286-.308.738-.48 1.167-.456h.345l4.728 1.07V42.463c0-1.36 1.066-2.462 2.381-2.462 1.316 0 2.382 1.102 2.382 2.462v7.003z"/>
+    </g>
+    <g>
+      <path fill="rgba(240, 248, 255, 0.32)" fill-opacity="0.7" d="M16 22a4 4 0 0 1 4-4h140a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4z"/>
+    </g>
+    <g>
+      <path fill="rgba(240, 248, 255, 0.32)" fill-opacity="0.7" d="M16 114a4 4 0 0 1 4-4h140a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4z"/>
+    </g>
+    <g>
+      <path fill="rgba(240, 248, 255, 0.32)" fill-opacity="0.7" d="M16 206a4 4 0 0 1 4-4h140a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4z"/>
+    </g>
+    <g>
+      <path fill="rgba(240, 248, 255, 0.32)" fill-opacity="0.7" d="M16 50a4 4 0 0 1 4-4h71a4 4 0 0 1 4 4v4a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4z"/>
+    </g>
+    <g>
+      <path fill="rgba(240, 248, 255, 0.32)" fill-opacity="0.7" d="M16 142a4 4 0 0 1 4-4h71a4 4 0 0 1 4 4v4a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4z"/>
+    </g>
+    <g>
+      <path fill="rgba(240, 248, 255, 0.32)" fill-opacity="0.7" d="M16 234a4 4 0 0 1 4-4h71a4 4 0 0 1 4 4v4a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4z"/>
+    </g>
+    <g>
+      <path fill="none" stroke="rgba(240, 248, 255, 0.32)" stroke-miterlimit="20" stroke-opacity=".5" stroke-width="4" d="M0 100a8 8 0 0 1 8-8h260a8 8 0 0 1 8 8v60a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z" clip-path="url(&quot;#7m9xb&quot;)"/>
+    </g>
+    <g>
+      <path fill="none" stroke="rgba(240, 248, 255, 0.32)" stroke-miterlimit="20" stroke-opacity=".5" stroke-width="4" d="M0 192a8 8 0 0 1 8-8h260a8 8 0 0 1 8 8v60a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z" clip-path="url(&quot;#7m9xc&quot;)"/>
+    </g>
+  </g>
+</svg>

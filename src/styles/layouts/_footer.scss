@@ -1,0 +1,164 @@
+@import "../shared";
+
+.footer-wrapper {
+  width: 100%;
+  background-color: rgba(61, 77, 101, 0.3);
+  box-shadow: 0 -10px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 40px 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include tablet {
+    padding: 100px 0 20px;
+  }
+
+  .links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    @include laptop {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    @include mobile {
+      flex-direction: column;
+    }
+
+    .list-line__left,
+    .list-line__right {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin: 0 -25px;
+
+      li {
+        padding: 0 25px;
+
+        @include laptop-lg {
+          padding: 0 15px;
+        }
+        @include laptop {
+          padding: 0 10px;
+        }
+        @include tablet {
+          padding: 0 5px;
+        }
+
+        a {
+          color: #b9c5d8;
+          text-decoration: none;
+          font-size: 15px;
+          font-weight: 300;
+
+          @include laptop {
+            font-size: 13px;
+          }
+          @include tablet {
+            font-size: 11px;
+          }
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .logo {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+      @include tablet {
+        top: unset;
+        bottom: calc(100% + 20px);
+        transform: translateX(-50%);
+      }
+
+      img {
+        height: 60px;
+        object-fit: contain;
+
+        @include laptop {
+          height: 50px;
+        }
+        @include tablet {
+          height: 45px;
+        }
+      }
+    }
+  }
+  .social {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #54657e;
+
+    @include laptop {
+      margin-top: 40px;
+      padding-bottom: 20px;
+    }
+    @include tablet {
+      margin-top: 30px;
+    }
+
+    > a {
+      text-decoration: underline;
+      width: 32px;
+      height: 32px;
+      margin: 0 15px;
+      background: #b9c5d8;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease-out;
+
+      @include laptop {
+        width: 30px;
+        height: 30px;
+        margin: 0 8px;
+      }
+
+      &:hover {
+        filter: brightness(0.8);
+      }
+
+      img {
+        width: 16px;
+        object-fit: contain;
+
+        @include laptop {
+          width: 15px;
+        }
+      }
+    }
+  }
+  .copyright {
+    p {
+      color: #939394;
+      font-weight: 300;
+      font-size: 13px;
+      margin-bottom: 0;
+
+      @include laptop {
+        font-size: 12px;
+      }
+      @include tablet {
+        font-size: 11px;
+      }
+    }
+  }
+}

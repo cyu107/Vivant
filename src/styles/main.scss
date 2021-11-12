@@ -1,0 +1,18 @@
+@import "./shared";
+@import "./layouts";
+@import "./pages";
+@import "./components";
+
+* {
+  box-sizing: border-box;
+  font-family: Montserrat;
+
+  &:focus {
+    outline: none !important;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #2c333f;
+}

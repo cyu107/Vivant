@@ -1,0 +1,65 @@
+@import "../shared";
+
+.header-wrapper {
+  background-color: rgba(61, 77, 101, 0.3);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+
+  header {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+
+    @include tablet {
+      padding: 20px 30px;
+    }
+    @include mobile {
+      padding: 15px 20px;
+    }
+
+    .logo {
+      img {
+        height: 50px;
+        object-fit: contain;
+
+        @include laptop {
+          height: 45px;
+        }
+      }
+    }
+    .sign-in {
+      button {
+        text-transform: uppercase;
+        color: #b9c5d8;
+        background: no-repeat;
+        border: none;
+        position: relative;
+        font-size: 12px;
+        cursor: pointer;
+
+        @include laptop {
+          font-size: 12px;
+        }
+
+        &:hover {
+          &::before {
+            width: 70px;
+          }
+        }
+
+        &::before {
+          content: "";
+          width: 0;
+          height: 2px;
+          position: absolute;
+          left: 0;
+          bottom: -5px;
+          background-color: #ff9948;
+          transition: all 0.2s ease-in-out;
+        }
+      }
+    }
+  }
+}
